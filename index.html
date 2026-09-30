@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mohanraj R — Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#eef1f5;--panel:#fff;--ink:#14202e;--mute:#516071;--line:#cfd7e1;--accent:#2f5d8a;--sig:#b86e00;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121a24;--panel:#1a2532;--ink:#e8edf3;--mute:#9aabbd;--line:#2c3a4a;--accent:#7fb0e0;--sig:#e0a13c}}
+:root[data-theme="dark"]{--bg:#121a24;--panel:#1a2532;--ink:#e8edf3;--mute:#9aabbd;--line:#2c3a4a;--accent:#7fb0e0;--sig:#e0a13c}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 "Source Sans 3",system-ui,sans-serif}
+h1,h2,h3{font-family:"Bricolage Grotesque","Segoe UI",sans-serif;line-height:1.1;margin:0}
+a{color:var(--accent)}
+:focus-visible{outline:3px solid var(--sig);outline-offset:2px}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+header.hero{padding:72px 0 48px;border-bottom:1px solid var(--line)}
+.hero h1{font-size:clamp(44px,9vw,96px);font-weight:800;letter-spacing:-.03em}
+.hero p.role{font-size:clamp(18px,2.6vw,24px);max-width:34em;color:var(--mute);margin:20px 0 28px}
+.contact{display:flex;flex-wrap:wrap;gap:10px}
+.contact a{padding:9px 16px;border:1.5px solid var(--ink);border-radius:999px;color:var(--ink);text-decoration:none;font-weight:600}
+.contact a:hover{background:var(--ink);color:var(--bg)}
+section{padding:56px 0;border-bottom:1px solid var(--line)}
+section>.wrap{display:grid;grid-template-columns:200px 1fr;gap:32px}
+h2{font-size:28px;font-weight:700}
+.sub{color:var(--mute);margin:6px 0 0;font-size:15px}
+@media(max-width:720px){section>.wrap{grid-template-columns:1fr;gap:18px}}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px 32px}
+.skills h3{font-size:18px;margin-bottom:4px}
+.skills p{margin:0;color:var(--mute)}
+.proj{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:26px}
+.proj h3{font-size:24px}
+.stack{color:var(--sig);font-weight:600;margin:6px 0 12px}
+.tl{list-style:none;margin:0;padding:0;border-left:3px solid var(--accent)}
+.tl li{padding:0 0 22px 20px;position:relative}
+.tl li:last-child{padding-bottom:0}
+.tl li::before{content:"";position:absolute;left:-9px;top:8px;width:15px;height:15px;border-radius:50%;background:var(--bg);border:3px solid var(--accent)}
+.tl b{display:block}
+.tl span{color:var(--mute);font-size:15px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:22px}
+.chips button{font:600 15px "Source Sans 3",sans-serif;padding:7px 14px;border-radius:999px;border:1.5px solid var(--line);background:var(--panel);color:var(--ink);cursor:pointer}
+.chips button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--bg)}
+.tools{display:grid;gap:26px}
+.grp h3{font-size:19px;padding-bottom:8px;border-bottom:2px solid var(--ink);margin-bottom:4px}
+.row{display:grid;grid-template-columns:minmax(120px,190px) 1fr;gap:14px;padding:9px 0;border-bottom:1px solid var(--line)}
+.row b{font-family:"Bricolage Grotesque",sans-serif;font-weight:700}
+.row span{color:var(--mute)}
+@media(max-width:520px){.row{grid-template-columns:1fr;gap:0}}
+footer{padding:36px 0 48px;color:var(--mute);font-size:15px}
+@media (prefers-reduced-motion:no-preference){.hero h1{animation:in .7s ease-out both}@keyframes in{from{opacity:0;transform:translateY(14px)}}}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap">
+<h1>Mohanraj R</h1>
+<p class="role">BCA graduate (2026) with a computer-systems and databases background, building hands-on skills in cybersecurity, SOC monitoring and DevSecOps.</p>
+<nav class="contact" aria-label="Contact">
+<a href="mailto:mohanrajkoki7@gmail.com">mohanrajkoki7@gmail.com</a>
+<a href="tel:+918838868253">+91-8838868253</a>
+<a href="#toolkit">Security toolkit</a>
+</nav>
+</div></header>
+
+<main>
+<section><div class="wrap">
+<div><h2>About</h2></div>
+<p>Disciplined and detail-oriented, with a vigilant, responsible approach to monitoring and record-keeping. I bring technical familiarity with computer systems and databases to roles such as System Operator, CCTV Operator or Exam Invigilator, where smooth operations, security and strict adherence to procedures matter. Based in Killveliyur, Tiruvannamalai, Tamil Nadu.</p>
+</div></section>
+
+<section><div class="wrap">
+<div><h2>Core skills</h2></div>
+<div class="skills">
+<div><h3>Computer operations</h3><p>Windows OS, MS Office (Word, Excel), data entry, basic system troubleshooting.</p></div>
+<div><h3>Monitoring and vigilance</h3><p>Sustained focus and accurate reporting of irregularities.</p></div>
+<div><h3>Discipline and compliance</h3><p>Punctual, rule-abiding, committed to confidentiality, fairness and integrity.</p></div>
+<div><h3>Databases and records</h3><p>MySQL and Oracle for data entry, retrieval and record maintenance.</p></div>
+<div><h3>Communication</h3><p>Clear verbal and written coordination with staff, supervisors and the public.</p></div>
+<div><h3>Quick learner</h3><p>Adapts rapidly to new tools, systems and standard operating procedures.</p></div>
+</div>
+</div></section>
+
+<section id="toolkit"><div class="wrap">
+<div><h2>Security toolkit</h2><p class="sub">Tools by area. Pick a category to filter.</p></div>
+<div>
+<div class="chips" id="chips" role="group" aria-label="Filter by category"></div>
+<div class="tools" id="tools"></div>
+</div>
+</div></section>
+
+<section><div class="wrap">
+<div><h2>Project</h2></div>
+<article class="proj">
+<h3>Job Portal Management System</h3>
+<p class="stack">Python · MySQL · HTML5 · CSS3</p>
+<p>A full-stack job portal with secure user registration, role-based authentication and access control, which required careful monitoring of user activity and data integrity. It uses structured MySQL integration for record management, with optimized SQL queries for reliable, error-free retrieval.</p>
+</article>
+</div></section>
+
+<section><div class="wrap">
+<div><h2>Education</h2></div>
+<ul class="tl">
+<li><b>Bachelor of Computer Applications (BCA)</b><span>2023 – 2026 (expected) · Indo-American College, Cheyyar, Tiruvannamalai · CGPA 7.6 / 10</span></li>
+<li><b>Higher Secondary (HSC)</b><span>2021 – 2023 · G.H.S. School, Mazhaiyur, Tiruvannamalai · 76%</span></li>
+</ul>
+</div></section>
+
+<section><div class="wrap">
+<div><h2>Certifications and training</h2></div>
+<ul class="tl">
+<li><b>Machine Learning Internship</b><span>Techxonic Innovation · 2025</span></li>
+<li><b>Oracle Cloud Infrastructure (OCI) Foundations</b><span>Oracle / Infosys · 2025</span></li>
+<li><b>Exploratory Data Analysis (EDA)</b><span>Infosys Springboard · 2025</span></li>
+<li><b>Web Development Certificate Course</b><span>Techxonic Innovation · 2024</span></li>
+</ul>
+</div></section>
+</main>
+
+<footer><div class="wrap">Mohanraj R · <a href="mailto:mohanrajkoki7@gmail.com">mohanrajkoki7@gmail.com</a> · +91-8838868253</div></footer>
+
+<script>
+const D=[
+["Reconnaissance and network security",[["Nmap","Network scanning, port and service discovery"],["Wireshark","Packet capture and network traffic analysis"],["Netcat","Connectivity testing, banner grabbing, troubleshooting"]]],
+["Web security",[["Gobuster","Directory and file enumeration"],["Nikto","Web server security scanning"],["Burp Suite","Web application security testing"],["OWASP Juice Shop","Vulnerable web-app security lab"],["SQLMap","SQL injection testing"]]],
+["Password security",[["Hydra","Authorized password and login auditing"],["John the Ripper","Password hash auditing"]]],
+["Exploitation",[["Metasploit Framework","Authorized vulnerability and exploitation validation"]]],
+["Vulnerability management",[["OpenVAS / Greenbone","Vulnerability assessment"]]],
+["Linux security and hardening",[["UFW","Linux firewall"],["Fail2Ban","Brute-force protection"],["journalctl","System and service log analysis"]]],
+["SOC and SIEM",[["Splunk","SIEM, log monitoring, alerting and dashboards"],["ELK Stack","Log collection, search and visualization"]]],
+["Cloud security",[["AWS IAM","Identity and access management"],["AWS Security Groups","Instance-level network access control"]]],
+["DevSecOps",[["Git","Source-code version control"],["GitHub","Remote code repository and collaboration"],["Jenkins","CI/CD automation"],["GitHub Actions","CI/CD workflow automation"],["SonarQube","SAST and code quality analysis"],["Trivy","Container, dependency and IaC security scanning"],["Docker","Containerization"],["Docker Hub","Container image registry"]]],
+["Mobile security",[["MobSF","Mobile application security analysis"],["APKTool","Android APK reverse engineering and resource analysis"]]],
+["Digital forensics",[["Autopsy","Digital forensic investigation"],["FTK Imager","Disk imaging and evidence acquisition"]]],
+["Reporting",[["SysReptor","Pentest reporting platform"]]]
+];
+const chips=document.getElementById('chips'),tools=document.getElementById('tools');
+let sel=null;
+function render(){
+chips.innerHTML='';
+[["All",null],...D.map((g,i)=>[g[0].split(' and ')[0].split(' ')[0]==='Reconnaissance'?'Recon and network':g[0],i])].forEach(([l,i])=>{
+const b=document.createElement('button');b.textContent=l;b.setAttribute('aria-pressed',String(sel===i));
+b.onclick=()=>{sel=i;render()};chips.appendChild(b)});
+tools.innerHTML='';
+D.forEach((g,i)=>{if(sel!==null&&sel!==i)return;
+const s=document.createElement('div');s.className='grp';
+s.innerHTML='<h3></h3>';s.firstChild.textContent=g[0];
+g[1].forEach(([n,p])=>{const r=document.createElement('div');r.className='row';r.innerHTML='<b></b><span></span>';r.children[0].textContent=n;r.children[1].textContent=p;s.appendChild(r)});
+tools.appendChild(s)})}
+render();
+</script>
+</body>
+</html>
